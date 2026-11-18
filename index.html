@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Questers Lab: curious quests into how things really work</title>
+<meta name="description" content="Questers Lab makes calm, animated explainers about the hidden systems behind everyday life and technology. Researched, sourced, and made to actually click.">
+<meta name="theme-color" content="#E4E6E0">
+<link rel="icon" href="assets/img/favicon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/nunito-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Questers Lab">
+<meta property="og:description" content="Curious quests into how things really work. Animated explainers on YouTube.">
+<meta property="og:url" content="https://questerslab.github.io/">
+<meta property="og:image" content="https://questerslab.github.io/assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://questerslab.github.io/">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/mark-96.png" alt="" width="36" height="36"><span>Questers Lab</span></a>
+    <ul>
+      <li><a href="#latest">Videos</a></li>
+      <li><a href="#quests">Quests</a></li>
+      <li><a href="brand.html">Brand kit</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <img class="wordmark" src="assets/downloads/questers-lab-wordmark-ink.svg" alt="Questers Lab" width="954" height="170">
+        <h1>Curious quests into how things really work.</h1>
+        <p class="lede">Calm, animated explainers that follow one everyday thing through the hidden systems behind it, step by step, until it clicks.</p>
+        <div class="actions">
+          <a class="btn btn-ink" href="https://www.youtube.com/@questerslab?sub_confirmation=1">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg>
+            Subscribe on YouTube
+          </a>
+          <a class="btn btn-line" href="#latest">Watch the latest</a>
+        </div>
+      </div>
+
+      <figure class="map" id="map" style="margin:0" aria-label="A quest map: one text message travels from your phone, to a cell tower, through an undersea cable and a data centre, to your friend's phone.">
+        <svg viewBox="0 0 560 460" role="img" aria-hidden="true">
+          <defs>
+            <mask id="reveal" maskUnits="userSpaceOnUse" x="-20" y="-20" width="600" height="500">
+              <path id="drawn" d="M70 390 C120 340 150 290 190 262 S280 330 320 340 S430 260 450 205 S470 100 482 72" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+            </mask>
+          </defs>
+          <!-- sea -->
+          <path class="wave" d="M235 380c20-10 40-10 60 0s40 10 60 0 40-10 60 0" fill="none" stroke="#86A89C" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+          <path class="wave w2" d="M255 408c20-10 40-10 60 0s40 10 60 0" fill="none" stroke="#86A89C" stroke-width="2.5" stroke-linecap="round" opacity=".45"/>
+          <path class="ghost" d="M70 390 C120 340 150 290 190 262 S280 330 320 340 S430 260 450 205 S470 100 482 72"/>
+          <path class="route" id="route" mask="url(#reveal)" d="M70 390 C120 340 150 290 190 262 S280 330 320 340 S430 260 450 205 S470 100 482 72"/>
+
+          <g class="stop" data-at="0">
+            <circle class="ring" cx="70" cy="390" r="27"/>
+            <g class="ic"><rect x="61" y="376" width="18" height="28" rx="4"/><path d="M67 398h6"/></g>
+            <text class="big" x="104" y="396">You tap send</text>
+          </g>
+          <g class="stop" data-at="0.24">
+            <circle class="ring" cx="190" cy="262" r="27"/>
+            <g class="ic"><path d="M190 256v20M183 276l7-20 7 20M181 250a12 12 0 0 1 18 0M177 245a18 18 0 0 1 26 0"/></g>
+            <text x="130" y="222">Cell tower</text>
+          </g>
+          <g class="stop" data-at="0.5">
+            <circle class="ring" cx="320" cy="340" r="27"/>
+            <g class="ic"><path d="M306 340h28M310 334v12M330 334v12M320 330v20"/></g>
+            <text x="358" y="336">Undersea cable</text>
+          </g>
+          <g class="stop" data-at="0.76">
+            <circle class="ring" cx="450" cy="205" r="27"/>
+            <g class="ic"><rect x="439" y="192" width="22" height="10" rx="2"/><rect x="439" y="207" width="22" height="10" rx="2"/><path d="M444 197h2M444 212h2"/></g>
+            <text x="330" y="190">Data centre</text>
+          </g>
+          <g class="stop" data-at="0.98">
+            <circle class="ring" cx="482" cy="72" r="27"/>
+            <circle class="ping" id="ping" cx="482" cy="72" r="27"/>
+            <circle class="goal" cx="482" cy="72" r="11"/>
+            <text class="big" x="372" y="40">Your friend's phone</text>
+          </g>
+          <circle class="traveller" id="traveller" cx="70" cy="390" r="8"/>
+        </svg>
+        <figcaption class="caption">One message, five stops, faster than a blink. <button class="again" id="replay" type="button">Replay</button></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <section id="quests">
+    <div class="wrap">
+      <div class="head">
+        <h2>Three kinds of quests</h2>
+        <p>Every video picks one ordinary thing and follows it through the machinery that makes it work. You should finish able to explain it to a friend.</p>
+      </div>
+      <div class="trailrow">
+        <article class="kind">
+          <div class="pin"><svg viewBox="0 0 24 24"><path d="M2 12h4l3-8 6 16 3-8h4"/></svg></div>
+          <h3>Invisible infrastructure</h3>
+          <p>The internet, power grids, water and phone networks running quietly under daily life.</p>
+          <p class="q">How does a message cross an ocean?</p>
+        </article>
+        <article class="kind">
+          <div class="pin"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg></div>
+          <h3>Inside the machine</h3>
+          <p>Chips, batteries, screens and AI models, opened up and explained piece by piece.</p>
+          <p class="q">Why does AI make things up?</p>
+        </article>
+        <article class="kind">
+          <div class="pin"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+          <h3>How the world moves</h3>
+          <p>Shipping, flights, payments and the systems that get things to your door.</p>
+          <p class="q">How does a parcel find your house?</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="latest" style="padding-top:24px">
+    <div class="wrap latest">
+      <a class="short" href="https://youtube.com/shorts/MSInEdkpP6w" aria-label="Watch the Short on YouTube: Why does AI make things up?">
+        <img src="assets/img/short-why-ai-cover.jpg" alt="" width="540" height="960" loading="lazy">
+        <span class="play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>
+      </a>
+      <div>
+        <h2 style="margin-bottom:28px">Fresh from the lab</h2>
+        <p class="meta">Short, about a minute</p>
+        <h3>Why does AI make things up?</h3>
+        <p class="lede">ChatGPT, Claude and Gemini all invent things sometimes. It isn't lying. Some facts have no pattern to predict, and AI models are scored a bit like this quiz. Try it:</p>
+
+        <div class="quiz" id="quiz">
+          <p class="qh">Question 7 of 500</p>
+          <p class="qq">When is a stranger's birthday?</p>
+          <div class="opts">
+            <button class="opt" type="button" data-v="guess">Guess: 10 September <span class="pts">+1 maybe</span></button>
+            <button class="opt" type="button" data-v="idk">I don't know <span class="pts">0, always</span></button>
+          </div>
+          <p class="ans" id="ans"></p>
+        </div>
+        <p style="margin-top:26px"><a class="btn btn-line" href="https://youtube.com/shorts/MSInEdkpP6w">Watch the Short</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="board">
+        <div class="head">
+          <h2>On our quest board</h2>
+          <p>Questions we want to answer next. Pull one out; if you'd watch it, tell us in the comments on YouTube.</p>
+        </div>
+        <div class="card-q" id="cardq" aria-live="polite">
+          <p class="pillar"><i id="qdot"></i><span id="qpillar">Invisible infrastructure</span></p>
+          <p class="t" id="qtitle">What actually happens when you tap "send"?</p>
+          <div class="row"><span class="n" id="qn">1 of 12</span><button class="btn btn-ink" id="qnext" type="button">Another question</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="head">
+        <h2>How we make videos</h2>
+      </div>
+      <div class="how">
+        <div><h3>Researched and sourced</h3><p>Every claim traces back to reliable sources, usually primary ones, listed in each video's description.</p></div>
+        <div><h3>Designed, not dumped</h3><p>Minimal 2D animation with a few 3D moments, drawn for each video. One idea on screen at a time.</p></div>
+        <div><h3>Made with AI tools, checked by a person</h3><p>We use a licensed AI voice and animation built in code. A person writes, checks and approves every script and every final video.</p></div>
+        <div><h3>Explainers, not advice</h3><p>We explain how systems work. We don't give financial, medical or legal advice.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:24px">
+    <div class="wrap teaser">
+      <div class="tiles">
+        <img src="assets/img/logo-480.jpg" alt="Questers Lab logo" width="120" height="120">
+        <div class="wm"><img src="assets/downloads/questers-lab-wordmark.svg" alt="Questers Lab wordmark" width="954" height="170"></div>
+      </div>
+      <div>
+        <h2>Brand kit</h2>
+        <p>Logo, watermark, wordmark, banner, colours and fonts, ready to download for press, partners and collaborators.</p>
+        <a class="btn btn-line" href="brand.html">Open the brand kit</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="brand" href="./"><img src="assets/img/mark-96.png" alt="" width="36" height="36">Questers Lab</a>
+      <div>© 2026 Questers Lab, @questerslab on YouTube</div>
+    </div>
+    <nav aria-label="Footer">
+      <a href="https://www.youtube.com/@questerslab">YouTube</a>
+      <a href="brand.html">Brand kit</a>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="terms.html">Terms of service</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="360 210 580 580" role="img" aria-label="QuestersLab logo">
+  <title>QuestersLab — YouTube channel logo</title>
+  <defs>
+    <linearGradient id="ring" x1="370" y1="540" x2="855" y2="365" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".48" stop-color="#ffffff"/><stop offset=".66" stop-color="#f7edff"/><stop offset=".82" stop-color="#bc72ff"/><stop offset="1" stop-color="#9338f5"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="563" y1="430" x2="894" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#cd8bff"/><stop offset=".55" stop-color="#a545fb"/><stop offset="1" stop-color="#9028ee"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Open, angular Q crest -->
+  <path d="M 663,750 C 642,764 619,757 596,745 L 430,642 Q 405,625 405,588 L 405,419 Q 405,387 432,369 L 599,272 Q 628,255 658,272 L 827,371 Q 846,384 846,415 L 846,565" fill="none" stroke="url(#ring)" stroke-width="92" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Purple Q tail -->
+  <path d="M 744,601 Q 749,596 757,600 L 886,679 Q 900,687 886,699 L 833,748 Q 821,761 808,753 L 670,661 Q 661,654 673,646 Z" fill="url(#purple)"/>
+  <!-- Play symbol -->
+  <path d="M 582,430 Q 582,413 598,422 L 722,494 Q 739,504 722,515 L 599,592 Q 582,601 582,583 Z" fill="url(#purple)"/>
+  <!-- Wordmark; no embedded fonts or raster images -->
+  
+  
+</svg>
