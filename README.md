@@ -4,7 +4,7 @@ The public website of the **Questers Lab** YouTube channel ([@questerslab](https
 
 | Page | What |
 |---|---|
-| `index.html` | Landing page: what the channel explains, latest video, how videos are made |
+| `index.html` | Landing page: what the channel explains, a playable mini quiz, the quest board, how videos are made |
 | `brand.html` | Brand kit: logo, watermark, wordmark, banner, colours, fonts, downloads |
 | `privacy.html`, `terms.html` | Privacy policy and terms. **Linked from the Google Cloud OAuth consent screen** of the private analytics tool: keep these URLs working |
 | `404.html` | Not-found page |

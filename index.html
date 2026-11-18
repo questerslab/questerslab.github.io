@@ -25,8 +25,8 @@
   <div class="wrap">
     <a class="brand" href="./"><img src="assets/img/mark-96.png" alt="" width="36" height="36"><span>Questers Lab</span></a>
     <ul>
-      <li><a href="#latest">Videos</a></li>
-      <li><a href="#quests">Quests</a></li>
+      <li><a href="#quests">What we do</a></li>
+      <li><a href="#play">Play</a></li>
       <li><a href="brand.html">Brand kit</a></li>
     </ul>
   </div>
@@ -44,7 +44,7 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg>
             Subscribe on YouTube
           </a>
-          <a class="btn btn-line" href="#latest">Watch the latest</a>
+          <a class="btn btn-line" href="#quests">See what we explain</a>
         </div>
       </div>
 
@@ -123,28 +123,20 @@
     </div>
   </section>
 
-  <section id="latest" style="padding-top:24px">
-    <div class="wrap latest">
-      <a class="short" href="https://youtube.com/shorts/MSInEdkpP6w" aria-label="Watch the Short on YouTube: Why does AI make things up?">
-        <img src="assets/img/short-why-ai-cover.jpg" alt="" width="540" height="960" loading="lazy">
-        <span class="play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>
-      </a>
+  <section id="play" style="padding-top:24px">
+    <div class="wrap playgrid">
       <div>
-        <h2 style="margin-bottom:28px">Fresh from the lab</h2>
-        <p class="meta">Short, about a minute</p>
-        <h3>Why does AI make things up?</h3>
-        <p class="lede">ChatGPT, Claude and Gemini all invent things sometimes. It isn't lying. Some facts have no pattern to predict, and AI models are scored a bit like this quiz. Try it:</p>
-
-        <div class="quiz" id="quiz">
-          <p class="qh">Question 7 of 500</p>
-          <p class="qq">When is a stranger's birthday?</p>
-          <div class="opts">
-            <button class="opt" type="button" data-v="guess">Guess: 10 September <span class="pts">+1 maybe</span></button>
-            <button class="opt" type="button" data-v="idk">I don't know <span class="pts">0, always</span></button>
-          </div>
-          <p class="ans" id="ans"></p>
+        <h2>Try a tiny quest</h2>
+        <p class="lede" style="margin-top:16px">Why do chatbots sometimes make things up? Part of the answer is how they're tested. Imagine a quiz with 500 questions, where a right answer scores a point and "I don't know" scores nothing. What would you pick?</p>
+      </div>
+      <div class="quiz" id="quiz" style="margin-top:0">
+        <p class="qh">Question 7 of 500</p>
+        <p class="qq">When is a stranger's birthday?</p>
+        <div class="opts">
+          <button class="opt" type="button" data-v="guess">Guess: 10 September <span class="pts">+1 maybe</span></button>
+          <button class="opt" type="button" data-v="idk">I don't know <span class="pts">0, always</span></button>
         </div>
-        <p style="margin-top:26px"><a class="btn btn-line" href="https://youtube.com/shorts/MSInEdkpP6w">Watch the Short</a></p>
+        <p class="ans" id="ans"></p>
       </div>
     </div>
   </section>
@@ -153,8 +145,8 @@
     <div class="wrap">
       <div class="board">
         <div class="head">
-          <h2>On our quest board</h2>
-          <p>Questions we want to answer next. Pull one out; if you'd watch it, tell us in the comments on YouTube.</p>
+          <h2>The quest board</h2>
+          <p>The kind of questions we love chasing. Pull one out and see if you already know the answer.</p>
         </div>
         <div class="card-q" id="cardq" aria-live="polite">
           <p class="pillar"><i id="qdot"></i><span id="qpillar">Invisible infrastructure</span></p>

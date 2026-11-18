@@ -56,7 +56,7 @@
       b.addEventListener('click', function () {
         quiz.classList.add('done');
         ans.innerHTML = (b.dataset.v === 'guess'
-          ? 'You guessed. One time in 365 you score a point. "I don\'t know" never does, so on a test like this, guessing always wins on average.'
+          ? 'You guessed. About one time in 365 that scores a point, and "I don\'t know" never does. So on a test like this, guessing wins on average, and an AI trained on such tests learns to bluff.'
           : 'Honest, and it scores zero every time. A guess sometimes scores a point, so a model trained on tests like this learns to bluff.')
           + ' <button class="again" type="button">Try again</button>';
         ans.querySelector('.again').addEventListener('click', function () { quiz.classList.remove('done'); ans.textContent = ''; });

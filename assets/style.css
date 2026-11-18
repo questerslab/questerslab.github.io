@@ -249,3 +249,9 @@ footer .brand{margin-bottom:8px}
   .card-q{padding:22px 20px 18px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+/* Play section */
+.playgrid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.playgrid .quiz{margin-top:0}
+.playgrid .lede{max-width:46ch}
+@media (max-width:960px){.playgrid{grid-template-columns:1fr;gap:28px}}
